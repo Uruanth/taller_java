@@ -1,12 +1,13 @@
 package com.sofka.university;
 
 import com.sofka.university.ejercicio1.Comprobar;
-import com.sofka.university.ejercicio2.CapturaDatos;
+import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
 import com.sofka.university.ejercicio5.ParesImpares;
 import com.sofka.university.ejercicio6.ParesImparesFor;
 import com.sofka.university.ejercicio7.MayorCero;
+import com.sofka.university.ejercicio8.DiaLaboral;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -23,7 +24,8 @@ public class principal {
                 "4. Calcular precio total\n" +
                 "5. Mostar pares e impares del 1 al 100 (Ciclo while)\n" +
                 "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n" +
-                "7. Comprobar si un número es mayor que 0\n"
+                "7. Comprobar si un número es mayor que 0\n"+
+                "8. Comprobar si es un día laboral\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -35,7 +37,7 @@ public class principal {
                 System.out.println(Comprobar.comprobar(9, 8));
                 break;
             case 2:
-                double[] datos = CapturaDatos.pedirDatos();
+                double[] datos = Ejercicio2.pedirDatos();
                 System.out.println(Comprobar.comprobar(datos[0], datos[1]));
                 break;
             case 3:
@@ -56,7 +58,9 @@ public class principal {
                     ejercicio7 = MayorCero.comprobar();
                     System.out.println(ejercicio7);
                 } while (ejercicio7.equals("Vualva intentar"));
-
+                break;
+            case 8:
+                System.out.println(DiaLaboral.comprobar());
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
