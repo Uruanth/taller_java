@@ -5,6 +5,7 @@ import com.sofka.university.ejercicio2.CapturaDatos;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
 import com.sofka.university.ejercicio5.ParesImpares;
+import com.sofka.university.ejercicio6.ParesImparesFor;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -19,17 +20,9 @@ public class principal {
                 "2. Pediro dos números para comprobar\n" +
                 "3. Calcular área de un círculo\n" +
                 "4. Calcular precio total\n" +
-                "5. Mostar pares e impares del 1 al 100\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n" +
-                "1. Ejercicio 1\n");
+                "5. Mostar pares e impares del 1 al 100 (Ciclo while)\n" +
+                "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n"
+                );
 
         Scanner scanner = new Scanner(System.in);
         int opcion = scanner.nextInt();
@@ -51,6 +44,9 @@ public class principal {
                 break;
             case 5:
                 ParesImpares.mostrar();
+                break;
+            case 6:
+                ParesImparesFor.mostrar();
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");

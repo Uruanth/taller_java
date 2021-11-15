@@ -16,11 +16,10 @@ public class ParesImpares {
             System.out.print(ParesImpares.pares().get(i)+"\t\t\t");
             System.out.println(ParesImpares.impares().get(i));
         }
-        System.out.println(ParesImpares.pares().get(50));
     }
 
     private static List<Integer> pares(){
-        int contador = 0;
+        int contador = 1;
         List<Integer> pares = new ArrayList<>();
         while(contador<101){
             if(contador%2 == 0) pares.add(contador);
@@ -33,7 +32,7 @@ public class ParesImpares {
 
 
     private static List<Integer> impares(){
-        int contador = 0;
+        int contador = 1;
         List<Integer> impares = new ArrayList<>();
         while(contador<101){
             if(contador%2 != 0) impares.add(contador);
