@@ -8,6 +8,7 @@ import com.sofka.university.ejercicio5.ParesImpares;
 import com.sofka.university.ejercicio6.ParesImparesFor;
 import com.sofka.university.ejercicio7.MayorCero;
 import com.sofka.university.ejercicio8.DiaLaboral;
+import com.sofka.university.ejercicio9.Ejercicio9;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -25,7 +26,8 @@ public class principal {
                 "5. Mostar pares e impares del 1 al 100 (Ciclo while)\n" +
                 "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n" +
                 "7. Comprobar si un número es mayor que 0\n"+
-                "8. Comprobar si es un día laboral\n"
+                "8. Comprobar si es un día laboral\n"+
+                "9. Remplazar por e y agregar la cadena que se desea\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -61,6 +63,9 @@ public class principal {
                 break;
             case 8:
                 System.out.println(DiaLaboral.comprobar());
+                break;
+            case 9:
+                System.out.println(Ejercicio9.cambiarCadena());
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
