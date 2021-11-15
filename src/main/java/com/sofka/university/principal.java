@@ -6,6 +6,7 @@ import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
 import com.sofka.university.ejercicio5.ParesImpares;
 import com.sofka.university.ejercicio6.ParesImparesFor;
+import com.sofka.university.ejercicio7.MayorCero;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -21,8 +22,9 @@ public class principal {
                 "3. Calcular área de un círculo\n" +
                 "4. Calcular precio total\n" +
                 "5. Mostar pares e impares del 1 al 100 (Ciclo while)\n" +
-                "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n"
-                );
+                "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n" +
+                "7. Comprobar si un número es mayor que 0\n"
+        );
 
         Scanner scanner = new Scanner(System.in);
         int opcion = scanner.nextInt();
@@ -47,6 +49,14 @@ public class principal {
                 break;
             case 6:
                 ParesImparesFor.mostrar();
+                break;
+            case 7:
+                String ejercicio7;
+                do {
+                    ejercicio7 = MayorCero.comprobar();
+                    System.out.println(ejercicio7);
+                } while (ejercicio7.equals("Vualva intentar"));
+
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
