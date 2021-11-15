@@ -1,0 +1,12 @@
+
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–™¬Âýÿÿÿÿ8ò‚Ì‰Ò/
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ìÆ“ëýÿÿÿÿ8ò‚Ì‰Ò/
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–™¬Âýÿÿÿÿ
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ò‚Ì‰Ò/
+Q
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶8ò‚Ì‰Ò/
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8ò‚Ì‰Ò/
