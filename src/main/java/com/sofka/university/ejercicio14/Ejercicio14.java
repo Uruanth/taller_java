@@ -3,6 +3,7 @@ package com.sofka.university.ejercicio14;
 import com.sofka.university.capturarDatos.CapturarDatos;
 
 public class Ejercicio14 {
+    private  Ejercicio14(){}
 
     public static String deXa1000() {
         int input = solicitarNumero();
@@ -21,17 +22,18 @@ public class Ejercicio14 {
     }
 
     public static String completarConteo(int numero) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         while (numero < 999) {
             for (int i = 0; i < 5; i++) {
                 if (numero > 998) break;
                 numero += 2;
-                result += numero + "\t\t";
+                result.append(numero) ;
+                result.append("\t\t") ;
             }
             if (numero > 998) break;
-            result += "\n";
+            result.append("\n") ;
         }
 
-        return result;
+        return result.toString();
     }
 }
