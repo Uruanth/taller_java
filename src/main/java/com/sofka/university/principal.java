@@ -7,6 +7,7 @@ import com.sofka.university.ejercicio12.Ejercicio12;
 import com.sofka.university.ejercicio13.Ejercicio13;
 import com.sofka.university.ejercicio14.Ejercicio14;
 import com.sofka.university.ejercicio15.Ejercicio15;
+import com.sofka.university.ejercicio16.CrearPersonas;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -38,7 +39,8 @@ public class principal {
                 "12. Comparar dos palabras\n"+
                 "13. Fecha y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n"+
                 "14. Contar de x a 1000\n"+
-                "15. Menú cinematográfico\n"
+                "15. Menú cinematográfico\n"+
+                "16. Personas\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -95,6 +97,9 @@ public class principal {
                 break;
             case 15:
                 System.out.println(Ejercicio15.mostrarMenu());
+                break;
+            case 16:
+                CrearPersonas.iniciarPersonas();
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
