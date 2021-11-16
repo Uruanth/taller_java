@@ -3,6 +3,7 @@ package com.sofka.university;
 import com.sofka.university.ejercicio1.Comprobar;
 import com.sofka.university.ejercicio10.Ejercicio10;
 import com.sofka.university.ejercicio11.Ejercicio11;
+import com.sofka.university.ejercicio12.Ejercicio12;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -30,7 +31,8 @@ public class principal {
                 "8. Comprobar si es un día laboral\n"+
                 "9. Remplazar por e y agregar la cadena que se desea\n"+
                 "10. Quitar los espacios a una frase\n"+
-                "11. Contar lonngitud y vocales de una frase\n"
+                "11. Contar lonngitud y vocales de una frase\n"+
+                "12. Comparar dos palabras\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -75,6 +77,9 @@ public class principal {
                 break;
             case 11:
                 System.out.println(Ejercicio11.procesarFrase());
+                break;
+            case 12:
+                System.out.println(Ejercicio12.iniciar());
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
