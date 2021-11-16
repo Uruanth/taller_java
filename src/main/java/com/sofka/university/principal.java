@@ -5,6 +5,7 @@ import com.sofka.university.ejercicio10.Ejercicio10;
 import com.sofka.university.ejercicio11.Ejercicio11;
 import com.sofka.university.ejercicio12.Ejercicio12;
 import com.sofka.university.ejercicio13.Ejercicio13;
+import com.sofka.university.ejercicio14.Ejercicio14;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -34,7 +35,8 @@ public class principal {
                 "10. Quitar los espacios a una frase\n"+
                 "11. Contar lonngitud y vocales de una frase\n"+
                 "12. Comparar dos palabras\n"+
-                "13. Fehca y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n"
+                "13. Fecha y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n"+
+                "14. Contar de x a 1000\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -85,6 +87,9 @@ public class principal {
                 break;
             case 13:
                 System.out.println(Ejercicio13.tiempActual());
+                break;
+            case 14:
+                System.out.println(Ejercicio14.deXa1000());
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");

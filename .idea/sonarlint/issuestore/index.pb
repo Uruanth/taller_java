@@ -21,3 +21,7 @@ m
 =src/main/java/com/sofka/university/ejercicio9/Ejercicio9.java,5\3\53ca6c1ab8ee204468a1ef5372b17d5712b1bf8d
 o
 ?src/main/java/com/sofka/university/ejercicio10/Ejercicio10.java,8\3\83940563df2d189d7968891694690d7da1d99211
+o
+?src/main/java/com/sofka/university/ejercicio12/Ejercicio12.java,f\0\f04593515c2fb34df9761acfd0b568b17578dbbe
+o
+?src/main/java/com/sofka/university/ejercicio11/Ejercicio11.java,a\8\a80276814fd83b709262b70446fa0b0d92ce9373
