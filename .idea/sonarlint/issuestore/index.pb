@@ -11,3 +11,13 @@ o
 ?src/main/java/com/sofka/university/ejercicio5/ParesImpares.java,9\8\984870ff6456609a6cd39ad3d56095c386408e84
 r
 Bsrc/main/java/com/sofka/university/ejercicio6/ParesImparesFor.java,9\b\9b8762064ec723fa34fbc5825be0c9a758743d16
+s
+Csrc/main/java/com/sofka/university/capturarDatos/CapturarDatos.java,0\1\017302d02089dd81962b298d6f58cc065f1c3786
+m
+=src/main/java/com/sofka/university/ejercicio2/Ejercicio2.java,2\e\2e58e994475f6fddb5c99653e9f7f89c7cfa72c5
+m
+=src/main/java/com/sofka/university/ejercicio8/DiaLaboral.java,1\9\19b7dcc4041470b1a262f076518e0717b4130e63
+m
+=src/main/java/com/sofka/university/ejercicio9/Ejercicio9.java,5\3\53ca6c1ab8ee204468a1ef5372b17d5712b1bf8d
+o
+?src/main/java/com/sofka/university/ejercicio10/Ejercicio10.java,8\3\83940563df2d189d7968891694690d7da1d99211
