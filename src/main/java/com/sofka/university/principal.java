@@ -2,6 +2,7 @@ package com.sofka.university;
 
 import com.sofka.university.ejercicio1.Comprobar;
 import com.sofka.university.ejercicio10.Ejercicio10;
+import com.sofka.university.ejercicio11.Ejercicio11;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -18,7 +19,6 @@ import java.util.logging.Logger;
 public class principal {
     public static void main(String[] args) {
 
-
         System.out.println("Ingrese la opcion que desea: \n" +
                 "1. Comprobar dos númros\n" +
                 "2. Pediro dos números para comprobar\n" +
@@ -29,7 +29,8 @@ public class principal {
                 "7. Comprobar si un número es mayor que 0\n"+
                 "8. Comprobar si es un día laboral\n"+
                 "9. Remplazar por e y agregar la cadena que se desea\n"+
-                "10. Quitar los espacios a una frase\n"
+                "10. Quitar los espacios a una frase\n"+
+                "11. Contar lonngitud y vocales de una frase\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -71,6 +72,9 @@ public class principal {
                 break;
             case 10:
                 System.out.println(Ejercicio10.quitarEspacios());
+                break;
+            case 11:
+                System.out.println(Ejercicio11.procesarFrase());
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
