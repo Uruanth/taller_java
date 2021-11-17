@@ -27,3 +27,7 @@ o
 ?src/main/java/com/sofka/university/ejercicio13/Ejercicio13.java,0\5\05a5dd152f33469155d5a9f0e8b9b53b892d7a24
 o
 ?src/main/java/com/sofka/university/ejercicio14/Ejercicio14.java,e\f\ef5f21de94b3d5e98234245f4ef3d8597c6eafd0
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+o
+?src/main/java/com/sofka/university/ejercicio15/Ejercicio15.java,9\5\95c56744a95d3a412a61c763c23cc845bf7fdf4c

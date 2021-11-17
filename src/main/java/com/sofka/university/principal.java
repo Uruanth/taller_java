@@ -8,6 +8,8 @@ import com.sofka.university.ejercicio13.Ejercicio13;
 import com.sofka.university.ejercicio14.Ejercicio14;
 import com.sofka.university.ejercicio15.Ejercicio15;
 import com.sofka.university.ejercicio16.CrearPersonas;
+import com.sofka.university.ejercicio17.Ejecutable17;
+import com.sofka.university.ejercicio17.Electrodomestico;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -31,16 +33,17 @@ public class principal {
                 "4. Calcular precio total\n" +
                 "5. Mostar pares e impares del 1 al 100 (Ciclo while)\n" +
                 "6. Mostar pares e impares del 1 al 100 (Ciclo For)\n" +
-                "7. Comprobar si un número es mayor que 0\n"+
-                "8. Comprobar si es un día laboral\n"+
-                "9. Remplazar por e y agregar la cadena que se desea\n"+
-                "10. Quitar los espacios a una frase\n"+
-                "11. Contar lonngitud y vocales de una frase\n"+
-                "12. Comparar dos palabras\n"+
-                "13. Fecha y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n"+
-                "14. Contar de x a 1000\n"+
-                "15. Menú cinematográfico\n"+
-                "16. Personas\n"
+                "7. Comprobar si un número es mayor que 0\n" +
+                "8. Comprobar si es un día laboral\n" +
+                "9. Remplazar por e y agregar la cadena que se desea\n" +
+                "10. Quitar los espacios a una frase\n" +
+                "11. Contar lonngitud y vocales de una frase\n" +
+                "12. Comparar dos palabras\n" +
+                "13. Fecha y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n" +
+                "14. Contar de x a 1000\n" +
+                "15. Menú cinematográfico\n" +
+                "16. Personas\n"+
+                "17. Electrodomesticos\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -100,6 +103,9 @@ public class principal {
                 break;
             case 16:
                 CrearPersonas.iniciarPersonas();
+                break;
+            case 17:
+                Ejecutable17.ejecutar();
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
