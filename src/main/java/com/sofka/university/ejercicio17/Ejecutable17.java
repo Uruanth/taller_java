@@ -25,15 +25,15 @@ public class Ejecutable17 {
 
 
         for(Electrodomestico el: electrodomesticos){
-            System.out.println(el+" = " + el.precioFinal());
+            System.out.println("\n"+el+" = " + el.precioFinal());
             if(el instanceof Electrodomestico) precioElectrodomesticos += el.precioFinal();
             if(el instanceof Lavadora) precioLavadoras += el.precioFinal();
             if(el instanceof Televisor) precioTelevisores += el.precioFinal();
         }
 
-        System.out.println("precioElectrodomesticos = " + precioElectrodomesticos);
-        System.out.println("precioTelevisores = " + precioTelevisores);
-        System.out.println("precioLavadoras = " + precioLavadoras);
+        System.out.println("\nprecio Electrodomesticos = " + precioElectrodomesticos);
+        System.out.println("precio Televisores = " + precioTelevisores);
+        System.out.println("precio Lavadoras = " + precioLavadoras);
     }
 
 }

@@ -1,9 +1,20 @@
 package com.sofka.university.ejercicio16;
 
+
 import java.util.Random;
 
 public class Persona {
 
+
+    //Constantes Clase
+    private static final int BAJO_PESO = -1;
+    private static final int PESO_NORMAL = 0;
+    private static final int SOBREPESO = 1;
+    private static final char[] letrasDNI = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D',
+            'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+
+
+    //Atributos
     private String name;
     private int edad = 0;
     private String DNI;
@@ -12,11 +23,6 @@ public class Persona {
     private static final char SEXO_DEFAULT = 'H';
     private char sexo = SEXO_DEFAULT;
 
-    //Constantes Clase
-
-    private static final int BAJO_PESO = -1;
-    private static final int PESO_NORMAL = 0;
-    private static final int SOBREPESO = 1;
 
     public Persona() {
         this.DNI = generarDNI();
@@ -27,6 +33,7 @@ public class Persona {
         this.edad = edad;
         this.sexo = sexo;
         this.DNI = generarDNI();
+        comprobarSexo(this.sexo);
     }
 
     public Persona(String name, int edad, double peso, double altura, char sexo) {
@@ -35,6 +42,7 @@ public class Persona {
         this.peso = peso;
         this.altura = altura;
         this.sexo = sexo;
+        comprobarSexo(this.sexo);
         this.DNI = generarDNI();
     }
 
@@ -46,6 +54,7 @@ public class Persona {
         this.altura = altura;
         this.sexo = sexo;
         this.DNI = generarDNI();
+        comprobarSexo(this.sexo);
     }
 
     private int calcularIMC() {
@@ -58,16 +67,17 @@ public class Persona {
     }
 
     private boolean esMayorDeEdad() {
-        return this.edad > 18;
+        return this.edad >= 18;
     }
 
     public String mayor() {
-        if(esMayorDeEdad()) return "Si";
+        if (esMayorDeEdad()) return "Si";
         return "No";
     }
 
-    private boolean comprobarSexo(char sexo){
-        return this.sexo == sexo;
+    private void comprobarSexo(char sexo) {
+        if (sexo != 'H' && sexo != 'M') this.sexo = SEXO_DEFAULT;
+        else this.sexo = sexo;
     }
 
     @Override
@@ -82,27 +92,34 @@ public class Persona {
                 '}';
     }
 
-    public String estadoPeso(){
-        switch (calcularIMC()){
+    public String estadoPeso() {
+        switch (calcularIMC()) {
             case -1:
                 return "Esta debajo del peso ideal";
             case 0:
                 return "Esta en el peso ideal";
             case 1:
                 return "Esta con sobre peso";
-            case 2: default:
+            case 2:
+            default:
                 return "Datos errados para el calculo";
         }
 
 
     }
 
-    private String  generarDNI(){
+    private int generarNumeroDNI() {
         Random rand = new Random();
         int DNI = rand.nextInt(99999999);
-        return ""+DNI;
+        return DNI;
     }
 
+    private String generarDNI() {
+        int numeroDNI = generarNumeroDNI();
+        char letraDNI = letrasDNI[(numeroDNI % 23)];
+
+        return "" + numeroDNI + letraDNI;
+    }
 
 
     public String getName() {
