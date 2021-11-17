@@ -4,7 +4,7 @@ import com.sofka.university.capturarDatos.CapturarDatos;
 
 public class Ejercicio15 {
 
-    private static final String menu = "****** GESTION CINEMATOGRÁFICA ********\n" +
+    private static final String menu = "****** GESTION CINEMATOGRAFICA ********\n" +
             "1-NUEVO ACTOR\n" +
             "2-BUSCAR ACTOR\n" +
             "3-ELIMINAR ACTOR\n" +

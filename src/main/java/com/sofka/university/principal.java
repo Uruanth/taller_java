@@ -10,6 +10,7 @@ import com.sofka.university.ejercicio15.Ejercicio15;
 import com.sofka.university.ejercicio16.CrearPersonas;
 import com.sofka.university.ejercicio17.Ejecutable17;
 import com.sofka.university.ejercicio17.Electrodomestico;
+import com.sofka.university.ejercicio18.Ejecutable18;
 import com.sofka.university.ejercicio2.Ejercicio2;
 import com.sofka.university.ejercicio3.Circulo;
 import com.sofka.university.ejercicio4.Producto;
@@ -42,8 +43,9 @@ public class principal {
                 "13. Fecha y hora actual en formato (AAAA/MM/DD) y (HH:MM:SS)\n" +
                 "14. Contar de x a 1000\n" +
                 "15. Menú cinematográfico\n" +
-                "16. Personas\n"+
-                "17. Electrodomesticos\n"
+                "16. Personas\n" +
+                "17. Electrodomesticos\n"+
+                "18. Videojuegos y series\n"
         );
 
         Scanner scanner = new Scanner(System.in);
@@ -106,6 +108,9 @@ public class principal {
                 break;
             case 17:
                 Ejecutable17.ejecutar();
+                break;
+            case 18:
+                Ejecutable18.empezar();
                 break;
             default:
                 logger.log(Level.INFO, "No encontro la opción");
