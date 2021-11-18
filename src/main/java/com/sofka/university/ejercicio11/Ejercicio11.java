@@ -38,6 +38,12 @@ public class Ejercicio11 {
                 "\ni = " + numVocales[2] +
                 "\no = " + numVocales[3] +
                 "\nu = " + numVocales[4];
+
+
+
+
     }
+
+
 
 }
