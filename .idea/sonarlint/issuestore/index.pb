@@ -27,3 +27,13 @@ o
 ?src/main/java/com/sofka/university/ejercicio14/Ejercicio14.java,e\f\ef5f21de94b3d5e98234245f4ef3d8597c6eafd0
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+k
+;src/main/java/com/sofka/university/ejercicio16/Persona.java,d\4\d4ec76483bd9a36b54c92177037eb63fd6a7f6f7
+q
+Asrc/main/java/com/sofka/university/ejercicio16/CrearPersonas.java,1\f\1f7b257a29ba692bfc75896405a7977d3bfb3d47
+p
+@src/main/java/com/sofka/university/ejercicio17/Ejecutable17.java,3\8\38b666748b1ef19751a110c8f37dfbdb34c49cd1
+o
+?src/main/java/com/sofka/university/ejercicio11/Ejercicio11.java,a\8\a80276814fd83b709262b70446fa0b0d92ce9373
+a
+1src/main/java/com/sofka/university/principal.java,d\d\dd4ada59e8e4626df1a48ac76cd65cf55f59ba9f

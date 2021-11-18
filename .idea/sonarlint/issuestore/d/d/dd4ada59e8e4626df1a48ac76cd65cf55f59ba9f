@@ -1,0 +1,19 @@
+
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Şï´Ñşÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(Â¹Ôßøÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ô£’Ï
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(©ƒğˆûÿÿÿÿ
+M	java:S106J"9Replace this use of System.out or System.err by a logger.(ğÆj
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(è£‚Èúÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(•¨Âàşÿÿÿÿ
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(Ğ©ğØ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(Ú§ºÉÿÿÿÿÿ
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(ğ„Óÿ
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(‰Û÷§
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(§×ÙÂüÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(œ­îß
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(š¨¡ş
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(ÙÓåÕıÿÿÿÿ8‘×šÓ/
+i
+java:S1128"NRemove this unused import 'com.sofka.university.ejercicio17.Electrodomestico'.(­›Û˜øÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û£Â

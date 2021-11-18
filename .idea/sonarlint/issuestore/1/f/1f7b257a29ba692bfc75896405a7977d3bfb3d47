@@ -1,0 +1,19 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(½Øë³
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ã†„ä
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Á®Î„
+M	java:S106"9Replace this use of System.out or System.err by a logger.(—Ìµg
+N	java:S106"9Replace this use of System.out or System.err by a logger.(äò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©«Ó
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ü¸²Ú
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ö¡á
+N	java:S106"9Replace this use of System.out or System.err by a logger.(šËûƒ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ª¥Øİ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(öÃÍÎ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ƒ”ŠŞ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Ïâ¬œ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(‘½£†ÿÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(Îš³¼ùÿÿÿÿ
+h
+java:S1192""RDefine a constant instead of duplicating this literal " es mayor de edad" 3 times.(ª¥Øİ
